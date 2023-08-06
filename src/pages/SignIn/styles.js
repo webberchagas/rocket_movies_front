@@ -60,6 +60,10 @@ export const Form = styled.form`
   & button:nth-child(4){
     margin-top: 48px;
   }
+
+  a {
+    color: ${({theme}) => theme.COLORS.BACKGROUND_800};
+  }
 `;
 
 export const Background = styled.div`

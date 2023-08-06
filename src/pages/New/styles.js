@@ -45,6 +45,8 @@ export const Form = styled.form`
   }
 
   > div:nth-child(5) {
+    margin-bottom: 101px;
+
     > a:first-child {
       background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
       color: ${({theme}) => theme.COLORS.PINK};
